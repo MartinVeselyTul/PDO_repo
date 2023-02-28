@@ -1,4 +1,4 @@
-# dokumentace - Retro herní konzole postavené na Raspberry Pi
+# dokumentace - Retro herní konzole postavená na Raspberry Pi
 ## Jakou práci dokumentuji?
 Dokumentuji svou bakalářskou práci, která se zabývá výrobou retro konzole, která vychází z Raspberry Pi. 
 Vytvářený je jak software (OS, mapování vstupů a přizpůsobení stažených her pro náš OS), tak hardware (kabely, moduly a dřevěný kryt konzole).
