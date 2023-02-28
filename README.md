@@ -10,4 +10,4 @@ Dále by má cílová skupina mohla být skupina dětí, kterým bude konzole sv
 Pro psaní dokumentace bude ale ideální zvolit skupinu administrátorů, nebo lidí, jež budou konzoli servisovat, pokud se něco rozbije a bude potřeba vyměnit nějaký díl, nebo vyřešit softwarový problém.
 
 ## Jak si představit člena cílové skupiny a jaké bude mít úkoly?
-Za člena cílové skupiny si představuji člověka, který má znalosti s Raspberry Pi a jeho OS, aby byl schopný vyřešit případný problém, pokud by v systému něco selhalo. 
+Za člena cílové skupiny si představuji člověka, který má znalosti s Raspberry Pi a jeho OS, aby byl schopný vyřešit případný problém, pokud by v systému něco selhalo. Také by měl být schopen vyřešit případný problém s modulem (nereaguje tlačítko, nefunguje joystick), tudíž by měl být zručný, aby mohl moduly vyměnit.
