@@ -33,7 +33,3 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 ### Zapojení modulů (vstupů)
 
 ### Připojení k elektrické síti a LAN
-
-Napsat nadpisy, případně něco k nim. 
-
-Vybrat typ dokumentace, který v projektu použiji.
