@@ -14,7 +14,26 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 
 #### -------------------------------------------------------------------------
 
-# struktura dokumentace
+# struktura dokumentace - jak spravovat konzoli (příručka pro servis)
+
+## Správa softwaru
+
+### Správa systémového prostředí (hlavní program)
+
+### Správa her
+
+### Nastavení vstupů
+
+### Nastavení výstupů
+
+## Správa hardwaru
+
+### Demontáž krytu
+
+### Zapojení modulů (vstupů)
+
+### Připojení k elektrické síti a LAN
+
 Napsat nadpisy, případně něco k nim. 
 
 Vybrat typ dokumentace, který v projektu použiji.
