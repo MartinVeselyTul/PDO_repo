@@ -11,3 +11,6 @@ Pro psaní dokumentace bude ale ideální zvolit skupinu administrátorů, nebo 
 
 ## Jak si představit člena cílové skupiny a jaké bude mít úkoly?
 Za člena cílové skupiny si představuji člověka, který má znalosti s Raspberry Pi a jeho OS, aby byl schopný vyřešit případný problém, pokud by v systému něco selhalo. Také by měl být schopen vyřešit případný problém s modulem (nereaguje tlačítko, nefunguje joystick), tudíž by měl být zručný, aby mohl moduly vyměnit.
+
+# struktura dokumentace
+## napsat nadpisy, případně něco k nim
