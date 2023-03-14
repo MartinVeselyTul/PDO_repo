@@ -15,4 +15,6 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 #### -------------------------------------------------------------------------
 
 # struktura dokumentace
-## napsat nadpisy, případně něco k nim
+Napsat nadpisy, případně něco k nim. 
+
+Vybrat typ dokumentace, který v projektu použiji.
