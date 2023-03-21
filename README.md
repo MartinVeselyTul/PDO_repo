@@ -13,31 +13,27 @@ Pro psaní dokumentace bude ale ideální zvolit skupinu administrátorů, nebo 
 Za člena cílové skupiny si představuji člověka, který má znalosti s Raspberry Pi a jeho OS, aby byl schopný vyřešit případný problém, pokud by v systému něco selhalo. Také by měl být schopen vyřešit případný problém s modulem (nereaguje tlačítko, nefunguje joystick), tudíž by měl být zručný, aby mohl moduly vyměnit.
 
 #### -------------------------------------------------------------------------
-<ol>
-  <li> # struktura dokumentace - jak spravovat konzoli (příručka pro servis) </li>
+# struktura dokumentace - jak spravovat konzoli (příručka pro servis)
 
+## 1. Správa softwaru
 
-  
-  <li> ## Správa softwaru </li>
+### 1.1 Správa systémového prostředí (hlavní program)
 
-</ol>
-### Správa systémového prostředí (hlavní program)
+### 1.2 Správa her
+#### 1.2.1 Přidání hry
 
-### Správa her
-#### Přidání hry
+#### 1.2.2 Odebrání hry
 
-#### Odebrání hry
+#### 1.2.3 Editace hry
 
-#### Editace hry
+### 1.3 Nastavení vstupů
 
-### Nastavení vstupů
+### 1.4 Nastavení výstupů
 
-### Nastavení výstupů
+## 2 Správa hardwaru
 
-## Správa hardwaru
+### 2.1 Demontáž krytu
 
-### Demontáž krytu
+### 2.2 Zapojení modulů (vstupů)
 
-### Zapojení modulů (vstupů)
-
-### Připojení k elektrické síti a LAN
+### 2.3 Připojení k elektrické síti a LAN
