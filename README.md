@@ -21,6 +21,11 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 ### Správa systémového prostředí (hlavní program)
 
 ### Správa her
+#### Přidání hry
+
+#### Odebrání hry
+
+#### Editace hry
 
 ### Nastavení vstupů
 
