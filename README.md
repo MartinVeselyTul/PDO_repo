@@ -27,13 +27,30 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 #### 1.2.3 Editace hry
 
 ### 1.3 Nastavení vstupů
+#### 1.3.1 Konfigurace tlačítek
+
+#### 1.3.2 Konfigurace joysticku
+
+#### 1.3.3 Připojení a nastavení senzorů (pohybový a na snímání vzdálenosti)
 
 ### 1.4 Nastavení výstupů
+
+#### 1.4.1 Konfigurace displeje
 
 ## 2 Správa hardwaru
 
 ### 2.1 Demontáž krytu
 
 ### 2.2 Zapojení modulů (vstupů)
+
+#### 2.2.1 Zapojení tlačítek
+
+#### 2.2.2 Zapojení joysticku
+
+#### 2.2.3 Zapojení senzorů
+
+#### 2.2.4 Zapojení displeje
+
+#### 2.2.5 Seznam všech připojených komponent
 
 ### 2.3 Připojení k elektrické síti a LAN
