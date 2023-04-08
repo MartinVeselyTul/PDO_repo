@@ -46,6 +46,8 @@ Pro přidání třídy do nové hry je třeba vytvořit novou instanci této tř
 Chcete-li připojit tlačítko na pinu 6, které bude simulovat stisk klávesy "p". Button = grove_controls.Button_controller(6, "p").
 
 Třída Joystick_controller slouží pro řízení vstupů z analogového Grove Thumb Joysticku, jež je zapojen na konektoru A0. V případě špatné reakce joysticku je možné v této metodě změnit toleranci pohybu ve směru x,y. Uživatel totiž nikdy nebude s joystickem hýbat přesně v jednotlivých osách. 
+V takovém případu je třeba přepsat funkci joystick_handle, konkrétně hodnoty v podmínkách. Nezapomeňte kód nejprve otestovat před použitím v konzoli. 
+Pro přidání nové instance je třeba stejně jako u tlačítka importovat knihovnu grove_controls.py. Následně vytvořte instanci příkazem joystick = grove_constrols.Joystick_constroller(0). Parametr 0 je roven portu zapojení A0, pokud byste joystick přesouvali, tento parametr změňte. Po vytvoření instance stačí zavolat funkci joystick_handle("tkinter okno" (proměnná)). Tkinter okno (většinou root), ve kterém chcete joystick využít. Joystick je naprogramován tak, že simuluje svým pohybem šipky nahoru, dolů, doleva, doprava. 
 
 #### 1.1.5 keyboard_tk.py
 Soubor keyboard_tk.py obsahuje třídu pro vytvoření instance klávesnice, jež se zobrazuje na displeji. Tato klávesnice slouží pro zapsání přezdívky hráče. Využívá knihovnu Tkinter. 
@@ -54,6 +56,12 @@ Soubor keyboard_tk.py obsahuje třídu pro vytvoření instance klávesnice, je�
 #### 1.2.1 Přidání nové hry
 Nová hra musí splňovat následující parametry. Kód v jazyce python. Po spuštění se otevře nové okno knihovny Tkinter. Ideální knihovna pro psaní hry PyGame. Hra musí být spustitelná x-krát za sebou (musí být ošetřená inicializace a následné smazání instance po skončení cyklu hry). 
 Do nové hry je třeba přidat třídu grove_controls pomocí příkazu "import grove_controls". Tuto třídu následně využijte v sekci ovládání hry. Detailní použití této třídy naleznete v kapitole 1.1.4. 
+Do adresáře githubu přidejte zdrojové kódy hry. Ve složce BP_console_menu/games vytvořte novou složku s názvem hry, název bez diakritiky a bez mezer např. "snake". Do této složky nahrajte soubory. 
+Dále do adresáře BP_console_menu/pict nahrajte miniaturu nové hry. Miniatura musí být ve formátu .jpg, ideální poměr stran 1:1, tudíž čtverec. Název souboru zvolte číslovku, která by následovala v seznamu již přidáných miniatur. Pokud jsou v adresáři miniatury 0.jpg, 1.jpg, váš soubor se bude jmenovat 2.jpg. 
+Posledním krokem je zapsání parametrů do souboru games.txt. Na nový řádek zapište "název hry", "cestu k main metodě hry", "cestu k miniatuře". Vše zapisujte bez uvozovek jako klasický text. Cesty začínají adresářem BP_console_menu. Nový řádek by měl vydapat například takto.
+" snake, games/snake/main.py, pict/2.jpg ".
+
+Po zapnutí konzole se nová hra zobrazí v seznamu her v hlavním menu. 
 
 #### 1.2.2 Odebrání hry
 
