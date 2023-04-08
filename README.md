@@ -20,13 +20,23 @@ Tato dokumentace obsahuje instrukce pro servisování a údržbu konzole. Dokume
 Tato kapitola obsahuje instrukce pro správu a nastavení softwaru konzole. Aktualizace konzole jak her, tak samotného herního prostředí jsou automatizovány, aby se děly samostatně. Kompletní software je napsát v jazyce Python za použití knihoven Tkinter a PyGame. Tkinter slouží pro manipulaci s okny a hlavní cyklus. Pomocí knihovny PyGame jsou realizovány hry. Operační systém na konzoli je Linux pro Raspberry Pi 64 bit, desktop verze. 
 
 ### 1.1 Správa systémového prostředí (hlavní program)
-Řídícím programem pro spuštění je soubor menu_rpi.py ve kterém je inicializováno herní prostředí (menu, nastavení, žebříčky). Tento skript dále volá ostatní. Na následující seznamu jsou zobrazeny role jednotlivých vedlejších skriptů.
+Řídícím programem pro spuštění je soubor menu_rpi.py ve kterém je inicializováno herní prostředí (menu, nastavení, žebříčky). Tento skript dále volá ostatní. Na následující seznamu jsou popsány role jednotlivých vedlejších skriptů. Jejich detailní popis naleznete níže.
 
 - db_admin.py - správa a volání databáze, mazání a zapisování záznamů, slouží pro uchování skóre pro jednotlivé hry a hráče
 - game.py - třída pro inicializaci her, využívaná souborem games_list.py
 - games_list.py - třídy pro inicializaci herního seznamu, manipulaci se hrami, spouštění her
 - grove_controls.py - mapování jednotlivých vstupů systému Grove pro jednotlivé klávesy
 - keyboard_tk.py - inicializace klávesnice pro zápis přezdívky hráče
+
+### 1.1.1 db_admin.py
+
+### 1.1.2 game.py
+
+### 1.1.3 games_list.py
+
+### 1.1.4 grove_controls.py
+
+### 1.1.5 keyboard.py
 
 
 ### 1.2 Správa her
