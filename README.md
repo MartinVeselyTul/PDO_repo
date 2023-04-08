@@ -28,15 +28,15 @@ Tato kapitola obsahuje instrukce pro správu a nastavení softwaru konzole. Aktu
 - grove_controls.py - mapování jednotlivých vstupů systému Grove pro jednotlivé klávesy
 - keyboard_tk.py - inicializace klávesnice pro zápis přezdívky hráče
 
-### 1.1.1 db_admin.py
+#### 1.1.1 db_admin.py
 
-### 1.1.2 game.py
+#### 1.1.2 game.py
 
-### 1.1.3 games_list.py
+#### 1.1.3 games_list.py
 
-### 1.1.4 grove_controls.py
+#### 1.1.4 grove_controls.py
 
-### 1.1.5 keyboard.py
+#### 1.1.5 keyboard.py
 
 
 ### 1.2 Správa her
