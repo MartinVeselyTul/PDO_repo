@@ -29,18 +29,31 @@ Tato kapitola obsahuje instrukce pro správu a nastavení softwaru konzole. Aktu
 - keyboard_tk.py - inicializace klávesnice pro zápis přezdívky hráče
 
 #### 1.1.1 db_admin.py
+Tento skript slouží pro editaci připojené databáze. Databáze obsahuje jednu tabulku "score", ve které jsou parametry "hra", "hráč", "skóre". Tabulka obsahuje pro každou hru 3 záznamy. Přístupové údaje k databázi jsou obsaženy v souboru config.ini. Databáze je typu pSQL. Jazyk pro práci s databází je SQL. Tento soubor obsahuje testovací main metodu, kde je možné testovat jednotlivé funkce.
 
 #### 1.1.2 game.py
+Soubor game.py obsahuje informace o jednotlivých hrách. Konkrétně název, cesta k main metodě hry, cesta k miniatuře (obrázku) hry. Obě cesty začínají v kořenovém adresáři BP_console_menu. 
 
 #### 1.1.3 games_list.py
+Soubor games_list.py slouží pro inicializaci her. Prvnotní inicializace probíhá čtením parametrů ze souboru games.txt. Bude více rozebráno v kapitole 1.2. 
 
 #### 1.1.4 grove_controls.py
+V tomto souboru probíhá naslouchání a převod vstupů na konkrétní klávesy. Pro naslouchájí vstupů slouží knihovny gpiozero a grove. Knihovna pyautogui zajišťuje simulaci stisku kláves. Např. po zjištění stisku tlačítka soubor vyvolá stisk klávesy "p". 
 
-#### 1.1.5 keyboard.py
 
+Třída Button_controller je využita pro Grove Dual button. Na konzoli naleznete dvě. 
+Pro přidání třídy do nové hry je třeba vytvořit novou instanci této třídy. Nejprve je třeba importovat soubor grove_controls.py příkazem "import grove_controls". Dále vytvoříme instanci příkazem button = grove_controls.Button_controller("číslo pinu" (int), "klávesa" (str)). Ćíslo pinu odpovídá pinu, na kterém je tlačítko zapojené. Informace o zapojení v kapitole 2.2.1. Klávesa odpovídá klávese, jejíž stisk se zmáčknutím tlačítka vyvolá. 
+Chcete-li připojit tlačítko na pinu 6, které bude simulovat stisk klávesy "p". Button = grove_controls.Button_controller(6, "p").
+
+Třída Joystick_controller slouží pro řízení vstupů z analogového Grove Thumb Joysticku, jež je zapojen na konektoru A0. V případě špatné reakce joysticku je možné v této metodě změnit toleranci pohybu ve směru x,y. Uživatel totiž nikdy nebude s joystickem hýbat přesně v jednotlivých osách. 
+
+#### 1.1.5 keyboard_tk.py
+Soubor keyboard_tk.py obsahuje třídu pro vytvoření instance klávesnice, jež se zobrazuje na displeji. Tato klávesnice slouží pro zapsání přezdívky hráče. Využívá knihovnu Tkinter. 
 
 ### 1.2 Správa her
-#### 1.2.1 Přidání hry
+#### 1.2.1 Přidání nové hry
+Nová hra musí splňovat následující parametry. Kód v jazyce python. Po spuštění se otevře nové okno knihovny Tkinter. Ideální knihovna pro psaní hry PyGame. Hra musí být spustitelná x-krát za sebou (musí být ošetřená inicializace a následné smazání instance po skončení cyklu hry). 
+Do nové hry je třeba přidat třídu grove_controls pomocí příkazu "import grove_controls". Tuto třídu následně využijte v sekci ovládání hry. Detailní použití této třídy naleznete v kapitole 1.1.4. 
 
 #### 1.2.2 Odebrání hry
 
