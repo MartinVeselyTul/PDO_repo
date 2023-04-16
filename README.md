@@ -14,6 +14,9 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 
 #### -------------------------------------------------------------------------
 # struktura dokumentace - jak spravovat konzoli (příručka pro servis)
+
+# Držím se této struktury a dokumentaci přepisuji a píši lokálně na PC. Zde uvedený text je zbytečně složitý, proto jej přepisuji, aby sloužil opravdu jako manuál.
+
 Tato dokumentace obsahuje instrukce pro servisování a údržbu konzole. Dokumentace je rozdělena na dvě kategorie, software a hardware. 
 
 ## 1. Správa softwaru
