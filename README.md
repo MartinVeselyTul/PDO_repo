@@ -124,7 +124,7 @@ Ovládání jednotlivých her – instance inicializovaná v jednotlivých main 
 
 V tabulce je uveden seznam jednotlivých vstupních zařízení Grove. U každého modulu je uvedeno, na jakém portu je zapojen a co za signály využívá.
 
-![](RackMultipart20230501-1-2ne2zr_html_e3a0115a0d645898.png)
+![image](https://user-images.githubusercontent.com/79989547/235484687-00f508b1-46ca-4d3c-8719-1aabda342aa4.png)
 
 NC – not connected (není připojeno)
 
