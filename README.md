@@ -23,55 +23,8 @@ Kapitola zabývající se systémovým prostředím, správou her, nastavením s
 
 Zobrazení struktury adresáře se zdrojovými kódy herního prostředí, her a vstupů.
 
-BP_console_menu 
+![image](https://user-images.githubusercontent.com/79989547/235484620-1575899d-d9e2-4856-8247-e65b512c0756.png)
 
-├── games 
-
-│   └── snake 
-
-│       ├── ... 
-
-│       │   └── ... 
-
-│       ├── ... 
-
-│       └── main.py 
-
-├── pict 
-
-│   ├── 0.jpg
-
-│   ├── 1.jpg
-
-│   └── 2.jpg
-
-├── sounds
-
-│   └── button
-
-│       ├── button1.mp3
-
-│       ├── button2.mp3
-
-│       ├── ...
-
-│       └── button7.mp3
-
-├── menu_rpi.py
-
-├── db_admin.py
-
-├── game.py
-
-├── games_list.py
-
-├── games.txt
-
-├── grove_controls.py
-
-├── keyboard_tk.py
-
-└── config.ini
 
 ## 1.2Správa her
 
