@@ -22,6 +22,68 @@ Kapitola zabývající se systémovým prostředím, správou her, nastavením s
 
 ### 1.1 Struktura adresáře
 Zobrazení struktury adresáře se zdrojovými kódy herního prostředí, her a vstupů.
-![image](https://user-images.githubusercontent.com/79989547/235482954-85df5d4e-ec62-433f-84dd-084e281b89de.png)
+
+BP_console_menu
+├── games
+│   └── snake
+│       ├── ...
+│       │   └── ...
+│       ├── ...
+│       └── main.py
+├── pict
+│   ├── 0.jpg
+│   ├── 1.jpg
+│   └── 2.jpg
+├── sounds
+│   └── button
+│       ├── button1.mp3
+│       ├── button2.mp3
+│       ├── ...
+│       └── button7.mp3
+├── menu_rpi.py
+├── db_admin.py
+├── game.py
+├── games_list.py
+├── games.txt
+├── grove_controls.py
+├── keyboard_tk.py
+└── config.ini
+
+
+### 1.2 Správa her
+V této kapitole naleznete, jak přidat, odebrat, či editovat hru. 
+Hry se nachází v adresáři /games/název hry.
+
+#### 1.2.1 Přidání nové hry
+Pro přidání nové hry postupujte dle následujících kroků.
+1.	Hra musí splňovat
+•	Napsaná v jazyce Python (verze 3.9 a vyšší)
+•	Podporované knihovny: PyGame, Tkinter
+•	Opakovatelně spustitelný main.py soubor (především opakovaná inicializace)
+•	Hra nesmí zapisovat a vytvářet nové soubory 
+2.	Ve složce /games vytvořte novou složku, název bez mezer a diakritiky či speciálních znaků
+3.	Obsah nové hry vložte do vytvořené složky
+4.	Do složky /pict vložte miniaturu (úvodní obrázek) hry
+•	Formát obrázku .jpg
+•	Ideální poměr obrázku 1:1
+•	Název zvolte číslo, které následuje po již existujících souborech (např. 3.jpg dle struktury našeho adresáře) 
+5.	Do souboru games.txt vložte nový řádek, na který napište
+•	Název hry, cestu k main.py souboru, cestu k miniatuře obrázku
+•	Cesty začínají od adresáře BP_console_menu (k adresáři games se odkážete /games, k adresáři pict dále /pict)
+•	Soubor uložte
+6.	Otestujte
+•	Hra by se měla zobrazit v úvodním menu
+•	Po jejím otevření otestujte opakované spuštění
+•	Po úspěšném otestování zavřete hlavní skript
+7.	Otevřete terminál a zadejte následující příkazy
+•	git pull
+•	git add .
+•	git commit -m „název hry“
+•	git push
+8.	Hra je nyní úspěšně přidaná do konzole i jejího online repozitáře
+
+
+
+
 
 
