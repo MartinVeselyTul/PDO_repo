@@ -15,24 +15,24 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 #### -------------------------------------------------------------------------
 # Jak spravovat konzoli (příručka pro servis)
 
-## 1Správa softwaru
+## 1 Správa softwaru
 
 Kapitola zabývající se systémovým prostředím, správou her, nastavením systému v Raspberry Pi a propojením hardwaru se softwarem.
 
-### 1.1Struktura adresáře
+### 1.1 Struktura adresáře
 
 Zobrazení struktury adresáře se zdrojovými kódy herního prostředí, her a vstupů.
 
 ![image](https://user-images.githubusercontent.com/79989547/235484620-1575899d-d9e2-4856-8247-e65b512c0756.png)
 
 
-## 1.2Správa her
+## 1.2 Správa her
 
 V této kapitole naleznete, jak přidat, odebrat, či editovat hru.
 
 Hry se nachází v adresáři /games/název hry.
 
-### 1.2.1Přidání nové hry
+### 1.2.1 Přidání nové hry
 
 Pro přidání nové hry postupujte dle následujících kroků.
 
@@ -62,7 +62,7 @@ Pro přidání nové hry postupujte dle následujících kroků.
     - git push
 8. Hra je nyní úspěšně přidaná do konzole i jejího online repozitáře
 
-### 1.2.2Odebrání hry
+### 1.2.2 Odebrání hry
 
 Pro odebrání hry postupujte následovně.
 
@@ -79,7 +79,7 @@ Pro odebrání hry postupujte následovně.
     - git push
 6. Hra je odstraněna z konzole i jejího online repozitáře
 
-### 1.2.3Editace hry
+### 1.2.3 Editace hry
 
 Pro editaci hry postupujte následovně.
 
@@ -94,7 +94,7 @@ Pro editaci hry postupujte následovně.
     4. git push
 6. Hra je nyní aktualizovaná v úložišti konzole i jejím online repozitáři
 
-### 1.2.4Aktualizace miniatury (obrázku hry)
+### 1.2.4 Aktualizace miniatury (obrázku hry)
 
 Pro aktualizaci miniatury hry postupujte následovně.
 
@@ -110,7 +110,7 @@ Pro aktualizaci miniatury hry postupujte následovně.
     4. git push
 7. Miniatura je nyní aktualizovaná v úložišti konzole i jejím online repozitáři
 
-## 1.3Nastavení vstupů
+## 1.3 Nastavení vstupů
 
 V této kapitole naleznete, jak nastavovat jednotlivé vstupy systému Grove. Konkrétně jak softwarově změnit jejich nastavený port a jak vstupy kalibrovat.
 
@@ -120,7 +120,7 @@ Ovládání herního prostředí – instance inicializovaná v souboru menu\_rp
 
 Ovládání jednotlivých her – instance inicializovaná v jednotlivých main souborech her (adresář /games)
 
-## 1.4Seznam jednotlivých vstupů
+## 1.4 Seznam jednotlivých vstupů
 
 V tabulce je uveden seznam jednotlivých vstupních zařízení Grove. U každého modulu je uvedeno, na jakém portu je zapojen a co za signály využívá.
 
@@ -128,7 +128,7 @@ V tabulce je uveden seznam jednotlivých vstupních zařízení Grove. U každé
 
 NC – not connected (není připojeno)
 
-### 1.4.1Konfigurace tlačítek
+### 1.4.1 Konfigurace tlačítek
 
 Pro **změnu portu** , v jakém je tlačítko zapojeno postupujte následovně.
 
@@ -143,7 +143,7 @@ Pro **změnu portu** , v jakém je tlačítko zapojeno postupujte následovně.
 6. Zapojte zdroj napájení a otestujte funkcionalitu tlačítka
 7. Při potížích kontaktujte výrobce
 
-### 1.4.2Konfigurace joysticku
+### 1.4.2 Konfigurace joysticku
 
 Pro **změnu portu** , v jakém je joystick zapojený postupujte následovně.
 
@@ -171,7 +171,7 @@ Pro **kalibraci** joysticku postupujte následovně.
 6. Otestujte změnu funkcionality joysticku
 7. Při potížích kontaktujte výrobce
 
-### 1.4.3Nastavení PIR senzoru a režimu hibernace
+### 1.4.3 Nastavení PIR senzoru a režimu hibernace
 
 Pro **změnu portu** , v jakém je PIR senzor zapojený postupujte následovně.
 
@@ -193,17 +193,17 @@ Pro **nastavení režimu hibernace** postupujte následovně.
 3. Pro změnu časové hodnoty změňte proměnnou sleep\_time na vámi zvolenou hodnotu (int)
 4. V sekci nastavení konzoli restartujte
 
-## 1.5Nastavení výstupů
+## 1.5 Nastavení výstupů
 
-### 1.5.1Konfigurace displeje
+### 1.5.1 Konfigurace displeje
 
-# 2Správa hardwaru
+# 2 Správa hardwaru
 
-## 2.1Demontáž krytu – přístup do konzole
+## 2.1 Demontáž krytu – přístup do konzole
 
 Tato kapitola obsahuje návod na demontáž krytu pro přístup do konzole. Výměnu jednotlivých modulů.
 
-## 2.2Výměna modulů
+## 2.2 Výměna modulů
 
 Pro výměnu konkrétního modulu nejprve podnikněte tyto kroky.
 
@@ -212,7 +212,7 @@ Pro výměnu konkrétního modulu nejprve podnikněte tyto kroky.
 3. Zadní stěnu konzole odejměte
 4. Pokračujte výměnou modulu v další kapitole
 
-### 2.2.1Výměna tlačítek
+### 2.2.1 Výměna tlačítek
 
 Pro výměnu tlačítka dodržujte následující postup.
 
@@ -226,7 +226,7 @@ Pro výměnu tlačítka dodržujte následující postup.
 6. Za použití šroubováku PH2 zajistěte 6 šroubů upevňující zadní stěnu konzole
 7. Do konzole připojte napájecí kabel
 
-### 2.2.2Výměna joysticku
+### 2.2.2 Výměna joysticku
 
 Pro výměnu joysticku dodržujte následující postup.
 
@@ -240,7 +240,7 @@ Pro výměnu joysticku dodržujte následující postup.
 6. Za použití šroubováku PH2 zajistěte 6 šroubů upevňující zadní stěnu konzole
 7. Do konzole připojte napájecí kabel
 
-### 2.2.3Výměna displeje
+### 2.2.3 Výměna displeje
 
 Pro výměnu displeje postupujte následovně.
 
