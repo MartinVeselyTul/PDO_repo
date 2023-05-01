@@ -15,44 +15,39 @@ Za člena cílové skupiny si představuji člověka, který má znalosti s Rasp
 #### -------------------------------------------------------------------------
 # Jak spravovat konzoli (příručka pro servis)
 
-Tato dokumentace obsahuje instrukce pro servisování a údržbu konzole. Dokumentace je rozdělena na dvě kategorie, software a hardware. 
-
-## 1. Správa softwaru
-Kapitola zabývající se systémovým prostředím, správou her, nastavením systému v Raspberry Pi a propojením hardwaru se softwarem.
-
-### 1.1 Struktura adresáře
-Zobrazení struktury adresáře se zdrojovými kódy herního prostředí, her a vstupů.
-
-.
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
-+-- _posts
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
-+-- _data
-|   +-- members.yml
-+-- _site
-+-- index.html
-
-
-
-# 1Správa softwaru
+## 1Správa softwaru
 
 Kapitola zabývající se systémovým prostředím, správou her, nastavením systému v Raspberry Pi a propojením hardwaru se softwarem.
 
-## 1.1Struktura adresáře
+### 1.1Struktura adresáře
 
 Zobrazení struktury adresáře se zdrojovými kódy herního prostředí, her a vstupů.
 
-![](RackMultipart20230501-1-2ne2zr_html_37b1e145fd379166.png)
+BP_console_menu 
+├── games 
+│   └── snake 
+│       ├── ... 
+│       │   └── ... 
+│       ├── ... 
+│       └── main.py 
+├── pict 
+│   ├── 0.jpg
+│   ├── 1.jpg
+│   └── 2.jpg
+├── sounds
+│   └── button
+│       ├── button1.mp3
+│       ├── button2.mp3
+│       ├── ...
+│       └── button7.mp3
+├── menu_rpi.py
+├── db_admin.py
+├── game.py
+├── games_list.py
+├── games.txt
+├── grove_controls.py
+├── keyboard_tk.py
+└── config.ini
 
 ## 1.2Správa her
 
