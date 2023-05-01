@@ -12,6 +12,11 @@ Pro psaní dokumentace bude ale ideální zvolit skupinu administrátorů, nebo 
 ## Jak si představit člena cílové skupiny a jaké bude mít úkoly?
 Za člena cílové skupiny si představuji člověka, který má znalosti s Raspberry Pi a jeho OS, aby byl schopný vyřešit případný problém, pokud by v systému něco selhalo. Také by měl být schopen vyřešit případný problém s modulem (nereaguje tlačítko, nefunguje joystick), tudíž by měl být zručný, aby mohl moduly vyměnit.
 
+## Formát dokumentu
+Dokument je připravený jak ve formátu elektronickém (viz níže), tak i ve variantě pro tisk. 
+Varianta pro tisk bude dodávána v balení s konzolí. Formát dokumentu byl zvolen A5. 
+Elektronická dokumentace byla vytvořena pro přístup z PC nebo mobilního zařízení.
+
 #### -------------------------------------------------------------------------
 # Jak spravovat konzoli (příručka pro servis)
 
