@@ -49,6 +49,7 @@ BP_console_menu
 ├── keyboard_tk.py
 └── config.ini
 
+ss
 ## 1.2Správa her
 
 V této kapitole naleznete, jak přidat, odebrat, či editovat hru.
