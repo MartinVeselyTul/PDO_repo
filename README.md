@@ -23,31 +23,24 @@ Kapitola zabývající se systémovým prostředím, správou her, nastavením s
 ### 1.1 Struktura adresáře
 Zobrazení struktury adresáře se zdrojovými kódy herního prostředí, her a vstupů.
 
-BP_console_menu
-├── games
-│   └── snake
-│       ├── ...
-│       │   └── ...
-│       ├── ...
-│       └── main.py
-├── pict
-│   ├── 0.jpg
-│   ├── 1.jpg
-│   └── 2.jpg
-├── sounds
-│   └── button
-│       ├── button1.mp3
-│       ├── button2.mp3
-│       ├── ...
-│       └── button7.mp3
-├── menu_rpi.py
-├── db_admin.py
-├── game.py
-├── games_list.py
-├── games.txt
-├── grove_controls.py
-├── keyboard_tk.py
-└── config.ini
+.
++-- _config.yml
++-- _drafts
+|   +-- begin-with-the-crazy-ideas.textile
+|   +-- on-simplicity-in-technology.markdown
++-- _includes
+|   +-- footer.html
+|   +-- header.html
++-- _layouts
+|   +-- default.html
+|   +-- post.html
++-- _posts
+|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
++-- _data
+|   +-- members.yml
++-- _site
++-- index.html
 
 
 
