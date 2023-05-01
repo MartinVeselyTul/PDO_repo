@@ -37,29 +37,29 @@ Hry se nachází v adresáři /games/název hry.
 Pro přidání nové hry postupujte dle následujících kroků.
 
 1. Hra musí splňovat
-  - Napsaná v jazyce Python (verze 3.9 a vyšší)
-  - Podporované knihovny: PyGame, Tkinter
-  - Opakovatelně spustitelný main.py soubor (především opakovaná inicializace)
-  - Hra nesmí zapisovat a vytvářet nové soubory
+    -  Napsaná v jazyce Python (verze 3.9 a vyšší)
+    - Podporované knihovny: PyGame, Tkinter
+    - Opakovatelně spustitelný main.py soubor (především opakovaná inicializace)
+    - Hra nesmí zapisovat a vytvářet nové soubory
 2. Ve složce /games vytvořte novou složku, název bez mezer a diakritiky či speciálních znaků
 3. Obsah nové hry vložte do vytvořené složky
 4. Do složky /pict vložte miniaturu (úvodní obrázek) hry
-  - Formát obrázku .jpg
-  - Ideální poměr obrázku 1:1
-  - Název zvolte číslo, které následuje po již existujících souborech (např. 3.jpg dle struktury našeho adresáře)
+    - Formát obrázku .jpg
+    - Ideální poměr obrázku 1:1
+    - Název zvolte číslo, které následuje po již existujících souborech (např. 3.jpg dle struktury našeho adresáře)
 5. Do souboru games.txt vložte nový řádek, na který napište
-  - Název hry, cestu k main.py souboru, cestu k miniatuře obrázku
-  - Cesty začínají od adresáře BP\_console\_menu (k adresáři games se odkážete /games, k adresáři pict dále /pict)
-  - Soubor uložte
+    - Název hry, cestu k main.py souboru, cestu k miniatuře obrázku
+    - Cesty začínají od adresáře BP\_console\_menu (k adresáři games se odkážete /games, k adresáři pict dále /pict)
+    - Soubor uložte
 6. Otestujte
-  - Hra by se měla zobrazit v úvodním menu
-  - Po jejím otevření otestujte opakované spuštění
-  - Po úspěšném otestování zavřete hlavní skript
+    - Hra by se měla zobrazit v úvodním menu
+    - Po jejím otevření otestujte opakované spuštění
+    - Po úspěšném otestování zavřete hlavní skript
 7. Otevřete terminál a zadejte následující příkazy
-  - git pull
-  - git add .
-  - git commit -m „název hry"
-  - git push
+    - git pull
+    - git add .
+    - git commit -m „název hry"
+    - git push
 8. Hra je nyní úspěšně přidaná do konzole i jejího online repozitáře
 
 ### 1.2.2Odebrání hry
