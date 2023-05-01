@@ -70,13 +70,13 @@ Pro odebrání hry postupujte následovně.
 2. Otevřete soubor games.txt a konkrétní řádek s názvem hry smažte, soubor uložte
 3. Otevřete adresář /games a složku s názvem hry smažte
 4. Otevřete adresář /pict a proveďte následovné
-  - Najděte miniaturu zvolené hry a smažte ji
-  - Přejmenujte ostatní .jpg soubory, aby čísla šla za sebou (dle ukázky adresáře, pokud smažete soubor 1.jpg, přejmujte soubor 2.jpg na 1.jpg, aby zbylo 0.jpg a nově přejmenovaný soubor 1.jpg)
+    - Najděte miniaturu zvolené hry a smažte ji
+    - Přejmenujte ostatní .jpg soubory, aby čísla šla za sebou (dle ukázky adresáře, pokud smažete soubor 1.jpg, přejmujte soubor 2.jpg na 1.jpg, aby zbylo 0.jpg a nově přejmenovaný soubor 1.jpg)
 5. Otevřete terminál a zadejte následující příkazy
-  - git pull
-  - git add .
-  - git commit -m „deleting název hry"
-  - git push
+    - git pull
+    - git add .
+    - git commit -m „deleting název hry"
+    - git push
 6. Hra je odstraněna z konzole i jejího online repozitáře
 
 ### 1.2.3Editace hry
@@ -88,10 +88,10 @@ Pro editaci hry postupujte následovně.
 3. V tomto adresáři naleznete kompletní zdrojový kód
 4. Po upravení hry vše uložte
 5. Otevřete terminál a zadejte následující příkazy
-  1. git pull
-  2. git add .
-  3. git commit -m „updating název hry"
-  4. git push
+    1. git pull
+    2. git add .
+    3. git commit -m „updating název hry"
+    4. git push
 6. Hra je nyní aktualizovaná v úložišti konzole i jejím online repozitáři
 
 ### 1.2.4Aktualizace miniatury (obrázku hry)
@@ -104,10 +104,10 @@ Pro aktualizaci miniatury hry postupujte následovně.
 4. Smažte starý soubor .jpg umístěný v adresáři /pict
 5. Nahrajte nový soubor .jpg do adresáře /pict
 6. Otevřete terminál a zadejte následující příkazy
-  1. git pull
-  2. git add .
-  3. git commit -m „updating pict název hry"
-  4. git push
+    1. git pull
+    2. git add .
+    3. git commit -m „updating pict název hry"
+    4. git push
 7. Miniatura je nyní aktualizovaná v úložišti konzole i jejím online repozitáři
 
 ## 1.3Nastavení vstupů
@@ -135,9 +135,9 @@ Pro **změnu portu** , v jakém je tlačítko zapojeno postupujte následovně.
 1. V inicializační části souboru nalezněte vytváření instance zvoleného tlačítka.
 2. Instance je vytvářena zadáním 2 čísel (int) – jedná se o GPIO piny, na kterých je tlačítko zapojeno.
 3. Pro změnu konektoru číselné hodnoty změňte na požadovaný port.
-  1. Ujistěte se, že daný port je digitální (označení písmenem D)
-  2. Dbejte na správné číslování zadaného portu.
-  3. Ujistěte se, že na zadaný port není nastaveno jiné zařízení.
+    1. Ujistěte se, že daný port je digitální (označení písmenem D)
+    2. Dbejte na správné číslování zadaného portu.
+    3. Ujistěte se, že na zadaný port není nastaveno jiné zařízení.
 4. Konzoli v sekci nastavení vypněte a odpojte od zdroje napájení
 5. Připojte dvojité tlačítko na zadaný port
 6. Zapojte zdroj napájení a otestujte funkcionalitu tlačítka
@@ -150,9 +150,9 @@ Pro **změnu portu** , v jakém je joystick zapojený postupujte následovně.
 1. V inicializační části souboru nalezněte vytváření instance joysticku.
 2. Instance je vytvářena zadáním čísla (int) – jedná se o GPIO pin, na kterém je joystick zapojený
 3. Pro změnu konektoru číselné hodnoty změňte na požadovaný port.
-  1. Ujistěte se, že daný port je analogový (označení písmenem A)
-  2. Dbejte na správné číslování zadaného portu.
-  3. Ujistěte se, že na zadaný port není nastaveno jiné zařízení.
+    1. Ujistěte se, že daný port je analogový (označení písmenem A)
+    2. Dbejte na správné číslování zadaného portu.
+    3. Ujistěte se, že na zadaný port není nastaveno jiné zařízení.
 4. Konzoli v sekci nastavení vypněte a odpojte od zdroje napájení
 5. Připojte joystick na zadaný port
 6. Zapojte zdroj napájení a otestujte funkcionalitu joysticku
@@ -163,9 +163,9 @@ Pro **kalibraci** joysticku postupujte následovně.
 1. Otevřete soubor grove\_controls.py
 2. Ve třídě Joystick\_controller se přesuňte do funkce joystick\_handle().
 3. Ve stavovém automatu této funkce změňte požadované hodnoty
-  1. Hodnoty jsou umístěny v podmínkách, v každé podmínce lze vidět, jaký pohyb joysticku podmínka ovládá
-  2. Pro kompletní seznámení s výstupními hodnotami joysticku vyhledejte stránku výrobce joysticku
-  3. Poslední podmínku této funkce nenastavujte a nepřepisujte
+    1. Hodnoty jsou umístěny v podmínkách, v každé podmínce lze vidět, jaký pohyb joysticku podmínka ovládá
+    2. Pro kompletní seznámení s výstupními hodnotami joysticku vyhledejte stránku výrobce joysticku
+    3. Poslední podmínku této funkce nenastavujte a nepřepisujte
 4. Soubor uložte
 5. V sekci nastavení restartujte konzoli
 6. Otestujte změnu funkcionality joysticku
@@ -178,9 +178,9 @@ Pro **změnu portu** , v jakém je PIR senzor zapojený postupujte následovně.
 1. V inicializační části souboru nalezněte vytváření instance PIR senzoru.
 2. Instance je vytvářena zadáním čísla (int) – jedná se o GPIO pin, na kterém je PIR senzor zapojený
 3. Pro změnu konektoru číselné hodnoty změňte na požadovaný port.
-  1. Ujistěte se, že daný port je digitální (označení písmenem D)
-  2. Dbejte na správné číslování zadaného portu.
-  3. Ujistěte se, že na zadaný port není nastaveno jiné zařízení.
+    1. Ujistěte se, že daný port je digitální (označení písmenem D)
+    2. Dbejte na správné číslování zadaného portu.
+    3. Ujistěte se, že na zadaný port není nastaveno jiné zařízení.
 4. Konzoli v sekci nastavení vypněte a odpojte od zdroje napájení
 5. Připojte PIR senzor na zadaný port
 6. Zapojte zdroj napájení a otestujte funkcionalitu senzoru
@@ -217,8 +217,8 @@ Pro výměnu konkrétního modulu nejprve podnikněte tyto kroky.
 Pro výměnu tlačítka dodržujte následující postup.
 
 1. Tlačítko odpojte z konektoru grove
-  1. Pokud nebylo jeho umístění změněno, zapojení naleznete v kapitole 1.4
-  2. Ověřte, že je konzole odpojená od napájení, hrozí nebezpečí úrazu elektrických proudem
+    1. Pokud nebylo jeho umístění změněno, zapojení naleznete v kapitole 1.4
+    2. Ověřte, že je konzole odpojená od napájení, hrozí nebezpečí úrazu elektrických proudem
 2. Za použití šroubováku typu PH1 vyšroubujte 2 šrouby upevňující dané tlačítko ze spodní strany konstrukce
 3. Nové tlačítko umístěte na místo starého tlačítka a stejným postupem přišroubujte
 4. Zapojte konektor systému grove do konzole na místo starého tlačítka
@@ -231,8 +231,8 @@ Pro výměnu tlačítka dodržujte následující postup.
 Pro výměnu joysticku dodržujte následující postup.
 
 1. Joystick odpojte z konektoru grove
-  1. Pokud nebylo jeho umístění změněno, zapojení naleznete v kapitole 1.4
-  2. Ověřte, že je konzole odpojená od napájení, hrozí nebezpečí úrazu elektrických proudem
+    1. Pokud nebylo jeho umístění změněno, zapojení naleznete v kapitole 1.4
+    2. Ověřte, že je konzole odpojená od napájení, hrozí nebezpečí úrazu elektrických proudem
 2. Za použití šroubováku typu PZ1 vyšroubujte 2 šrouby upevňující joystick ze spodní strany konstrukce
 3. Nový joystick umístěte na místo starého joysticku a stejným postupem přišroubujte
 4. Zapojte konektor systému grove do konzole na místo starého joysticku
@@ -249,9 +249,9 @@ Pro výměnu displeje postupujte následovně.
 3. Za použití šroubováku PH2 vyšroubujte z rámu displeje 4 šrouby
 4. Jemným tlakem do displeje z přední strany konzole zatlačte a vyjměte displej z konzole
 5. Před umístěním nového displeje zkontrolujte
-  1. Velikost displeje – musí být totožná se starým displejem
-  2. Typ připojení displeje – musí využívat HDMI připojení a napájení přes microUSB či USB-A konektor
-  3. Díry na uchycení displeje do konstrukce
+    1. Velikost displeje – musí být totožná se starým displejem
+    2. Typ připojení displeje – musí využívat HDMI připojení a napájení přes microUSB či USB-A konektor
+    3. Díry na uchycení displeje do konstrukce
 6. Displej umístěte na místo starého displeje
 7. Za použití šroubováku PH2 přišroubujte do rámu displeje 4 šrouby
 8. Propojte kabely displej s konzolí (kabely HDMI a USB)
